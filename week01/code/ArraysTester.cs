@@ -27,7 +27,7 @@ public static class ArraysTester {
         Console.WriteLine($"<List>{{{string.Join(',', numbers)}}}"); // <List>{1, 2, 3, 4, 5, 6, 7, 8, 9}
     }
     /// <summary>
-    /// This function will produce a list of size 'length' starting with 'number' followed by multiples of 'number'.  For 
+    /// This function  will produce a list of size 'length' starting with 'number' followed by multiples of 'number'.  For 
     /// example, MultiplesOf(7, 5) will result in: {7, 14, 21, 28, 35}.  Assume that length is a positive
     /// integer greater than 0.
     /// </summary>
