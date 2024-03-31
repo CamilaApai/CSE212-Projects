@@ -159,7 +159,15 @@ public static class SetsAndMapsTester
         {
             var fields = line.Split(",");
             // Todo Problem 2 - ADD YOUR CODE HERE
-            
+            var currentDegree = fields[3].Trim(); // Extract degree from the fourth column
+            if (!degrees.ContainsKey(currentDegree))
+            {
+                degrees[currentDegree] = 1; // Add degree with count 1 if it doesn't exist
+            }
+            else
+            {
+                degrees[currentDegree]++; // Increment count if degree already exists
+            }
         }
 
         return degrees;
