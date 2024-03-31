@@ -125,7 +125,7 @@ public static class SetsAndMapsTester {
     /// <param name="filename">The name of the file to read</param>
     /// <returns>fixed array of divisors</returns>
     /// #############
-    /// # Problem 2 #
+    /// ## Problem 2 ##
     /// #############
     private static Dictionary<string, int> SummarizeDegrees(string filename) {
         var degrees = new Dictionary<string, int>();
